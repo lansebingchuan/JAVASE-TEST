@@ -105,6 +105,7 @@ public class Lock {
         System.out.println("获取写锁成功！写锁没释放，不能获取读锁");
         writeLock.lock();
         System.out.println("获取多个写锁成功！");
+        // 加了注释
     }
 
 }
